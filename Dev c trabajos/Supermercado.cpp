@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <conio.h>
 
 int cantidad, cont, acum_1, acum_2, precio, subtotal, total, i ;
 int main()
 
 {	for(i=0;i<3;i++){
 
-	printf("\nIngrese una cantidad\n");
+	printf("\nIngrese una cantidad:\n");
 	scanf("%d", &cantidad);
 	
 	printf("\nIngrese el precio:\n");
@@ -28,7 +29,7 @@ int main()
 	printf("\nCantidad:%d", acum_2);
 	
 	
-	
+	getch();
 	
 	
 }
